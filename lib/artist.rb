@@ -2,7 +2,7 @@ class Artist
 
   @@song_count = 0
 
-  attr_accessor :songs, :name
+  attr_accessor :name
 
 
 
@@ -28,5 +28,8 @@ class Artist
       @@song_count
     end
 
+    def songs
+      @songs
+    end
 
 end
